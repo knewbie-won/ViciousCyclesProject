@@ -1,0 +1,68 @@
+.container{
+    margin: 5%;
+}
+legend{
+    font-size: 1em
+}
+#name, #address, #city, #state, #email{
+    display: block;
+    width: 50%;
+    padding: .5em .5em .5em .5em;
+    margin: 1em 0 1em 0;
+}
+fieldset{
+    font-size: 1em;
+    padding: .5em .5em .5em .5em;
+    margin: 2em 0 2em 0;
+}
+label{
+    padding: 2em 0 2em 0;
+    margin: 2em 0 2em 0;
+}
+button{
+    margin: 1em 0 0 0;
+    /*display: block;*/
+}
+#message{
+    padding: 2em 0 2em 0;
+    margin: 2em 0 2em 0;
+    display: block;
+}
+#department{
+    padding: 2em 0 2em 0;
+    margin: 2em 0 2em 0;
+}
+img{
+    max-width: 80%;
+}
+@media (max-width: 1600px) {
+    body{
+        background-color: rgb(240, 181, 63);
+    }    
+}
+@media (max-width: 900px) {
+    body{
+        background-color: pink;
+    }
+}
+@media (max-width: 600px) {
+    body{
+        background-color: tan;
+    }
+    #mail{
+        /*isplay: inline-block;*/
+        /*padding: .5em 0 .5em 0;*/
+        margin: .5em 0 .5em 0;
+    }
+    fieldset{
+        display: block;
+        font-size: 1em;
+        padding: .5em .5em .5em .5em;
+        margin: 2em 0 2em 0;
+    }
+    #department{
+        /*display: block;*/
+        padding: 2em 0 2em 0;
+        margin: .5em 0 .5em 0;
+    }
+}
