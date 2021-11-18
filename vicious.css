@@ -1,68 +1,105 @@
-.container{
-    margin: 5%;
+/*///////////////////////general css for all pages////////////////////*/
+body{
+    background-color:rgb(102, 102, 102)
 }
+.container{
+    margin: 2.5%;
+    background-color: lightcoral;  
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 2%;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 2%;
+}
+/*nav{
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}*/
+header{
+    max-width: 100%;
+    padding: 2%;
+    background-color: white;
+    margin: 2%;
+}
+footer{
+    display: inline;
+}
+/*///////////////////////////////form css//////////////////////////////*/
 legend{
-    font-size: 1em
+    font-size: 1em;
 }
 #name, #address, #city, #state, #email{
     display: block;
     width: 50%;
-    padding: .5em .5em .5em .5em;
-    margin: 1em 0 1em 0;
+    padding: 1%;
+    margin: 1%;
 }
 fieldset{
     font-size: 1em;
-    padding: .5em .5em .5em .5em;
-    margin: 2em 0 2em 0;
+    padding: 2%;
+    margin: 1%;
+    width: 70%;
 }
 label{
-    padding: 2em 0 2em 0;
-    margin: 2em 0 2em 0;
+    padding: 2%;
+    margin: 1%;
 }
 button{
-    margin: 1em 0 0 0;
+    margin: 1% 0 0 2%;
     /*display: block;*/
 }
 #message{
-    padding: 2em 0 2em 0;
-    margin: 2em 0 2em 0;
+    padding: 2%;
+    margin: 1%;
     display: block;
 }
 #department{
-    padding: 2em 0 2em 0;
-    margin: 2em 0 2em 0;
+    padding: 2%;
+    margin: 1%;
 }
 img{
-    max-width: 80%;
+    max-width: 90%;
+    padding: 2%;
 }
+/*///////////////////////////* responsive css*//*//////////////////////*/
 @media (max-width: 1600px) {
     body{
-        background-color: rgb(240, 181, 63);
+        background-color:rgb(102, 102, 102);
+    }
+    header{
+        max-width: 90;
     }    
 }
 @media (max-width: 900px) {
     body{
-        background-color: pink;
+        background-color:rgb(102, 102, 102);
     }
 }
 @media (max-width: 600px) {
     body{
-        background-color: tan;
+        background-color:rgb(102, 102, 102);
     }
     #mail{
-        /*isplay: inline-block;*/
-        /*padding: .5em 0 .5em 0;*/
-        margin: .5em 0 .5em 0;
+        /*display: inline-block;*/
+        padding: 2%;
+        margin: 1%;
     }
     fieldset{
         display: block;
         font-size: 1em;
-        padding: .5em .5em .5em .5em;
-        margin: 2em 0 2em 0;
+        padding: 2%;
+        margin: 1%;
     }
     #department{
         /*display: block;*/
-        padding: 2em 0 2em 0;
-        margin: .5em 0 .5em 0;
+        padding: 2%;
+        margin: 1%;
     }
 }
